@@ -27,4 +27,5 @@ def matches(opens, close):
     openers = "({["
     closers = ")}]"
     return openers.index(opens) == closers.index(close)
+    #1
     
